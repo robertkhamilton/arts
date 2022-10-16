@@ -37,6 +37,8 @@ if (($handle = fopen("main.csv", "r")) !== FALSE) {
 
 
 <?php 
+/*
+        
 $row = 1;
 if (($handle = fopen("main.csv", "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
@@ -50,7 +52,7 @@ if (($handle = fopen("main.csv", "r")) !== FALSE) {
     fclose($handle);
 }
 
-
+*/
 ?>
     
 </body>
