@@ -3,6 +3,7 @@
 
 <!DOCTYPE html>
 <HEAD>
+    <link rel="stylesheet" href="main.css">
 </HEAD>
 
 <style>
