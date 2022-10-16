@@ -12,6 +12,8 @@
 <BODY>
     
   
+<?php Header (“Content-type: text/css; charset=utf-8”);?>
+
 
 
 
