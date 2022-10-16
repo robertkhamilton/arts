@@ -1,5 +1,22 @@
 <?php include_once("index.html"); ?>
 
+
+<!DOCTYPE html>
+<HEAD>
+</HEAD>
+
+<style>
+<?php include 'main.css'; ?>
+</style>
+
+<BODY>
+    
+  
+
+
+
+
+
 <?php 
 $row = 1;
 if (($handle = fopen("main.csv", "r")) !== FALSE) {
