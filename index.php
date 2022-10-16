@@ -9,7 +9,7 @@ if (($handle = fopen("main.csv", "r")) !== FALSE) {
         $num = count($data);
         $row++;
         for ($c=0; $c < $num; $c++) {
-            echo "<div>$data[$c] . "</div>\n";
+            echo "<div>$data[$c] . </div>\n";
             
         }
     }
