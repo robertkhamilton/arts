@@ -1,5 +1,18 @@
 <?php include_once("index.html"); ?>
 
+<!DOCTYPE html>
+<HEAD>
+ 
+</HEAD>
+
+<style>
+<?php include 'CSS/main.css'; ?>
+</style>
+
+<BODY>
+    
+<?php Header (“Content-type: text/css; charset=utf-8”);?>
+
 <?php 
 
 $row = 1;
@@ -34,3 +47,6 @@ if (($handle = fopen("main.csv", "r")) !== FALSE) {
 
 
 ?>
+    
+</BODY>
+</html>
