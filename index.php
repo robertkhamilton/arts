@@ -2,6 +2,7 @@
 
 <?php include_once("main.csv"); ?>
 
+<?php 
 $row = 1;
 if (($handle = fopen("main.csv", "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
@@ -14,3 +15,4 @@ if (($handle = fopen("main.csv", "r")) !== FALSE) {
     }
     fclose($handle);
 }
+?>
