@@ -8,7 +8,7 @@
 </head>
 
 <style>
-<?php include 'main.css'; ?>
+
 </style>
 
 <body>
