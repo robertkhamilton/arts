@@ -5,9 +5,6 @@
  
 </HEAD>
 
-<style>
-<?php include 'main.css'; ?>
-</style>
 
 <BODY>
     
