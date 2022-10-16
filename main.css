@@ -1,5 +1,6 @@
 .arts_class {
-  border: 5px outset red;
+  border: 1px outset black;
   background-color: lightblue;
   text-align: center;
+  float: left;
 }
