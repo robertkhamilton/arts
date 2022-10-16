@@ -2,18 +2,21 @@
 
 
 <!DOCTYPE html>
-<HEAD>
+<html>
+<head>
     <link rel="stylesheet" href="main.css">
-</HEAD>
+</head>
 
 <style>
 <?php include 'main.css'; ?>
 </style>
 
-<BODY>
+<body>
 
-<?php 
-
+<?php
+    
+echo "AAA\n";
+    
 $row = 1;
 if (($handle = fopen("main.csv", "r")) !== FALSE) {
     
@@ -50,5 +53,5 @@ if (($handle = fopen("main.csv", "r")) !== FALSE) {
 
 ?>
     
-</BODY>
+</body>
 </html>
