@@ -6,7 +6,7 @@
 </HEAD>
 
 <style>
-<?php include 'CSS/main.css'; ?>
+<?php include 'main.css'; ?>
 </style>
 
 <BODY>
