@@ -1,0 +1,76 @@
+Year,Semester,Select,CRN,Subj,Crse,Sec,Cmp,Cred,Title,Days,Time,Cap,Act,Rem,WL Cap,WL Act,WL Rem,XL Cap,XL Act,XL Rem,Instructor,Date (MM/DD),Location,Attribute
+2020,Fall,C,25819,ARTS,1020,1,T,4,DIGITAL IMAGING,TF,10:10 am-12:00 pm,10,10,0,6,0,6,19,19,0,Nathan Scott Meltz (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,C,25820,ARTS,1020,2,T,4,DIGITAL IMAGING,TF,10:10 am-12:00 pm,9,9,0,5,0,5,19,19,0,Nathan Scott Meltz (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,NR,30466,ARTS,1020,3,T,4,DIGITAL IMAGING,TR,06:55 pm-08:45 pm,17,16,1,6,0,6,19,18,1,Matthew Brennan O'Hare (P),08/31-12/21,WEST 214,Hybrid:Online/In-Person Course
+2020,Fall,C,30467,ARTS,1020,4,T,4,DIGITAL IMAGING,TR,06:55 pm-08:45 pm,2,2,0,0,0,0,19,18,1,Matthew Brennan O'Hare (P),08/31-12/21,WEST 214,Hybrid:Online/In-Person Course
+2020,Fall,NR,29548,ARTS,1030,1,T,4,DIGITAL FILMMAKING,MR,12:20 pm-02:10 pm,14,10,4,0,0,0,19,16,3,Elizabeth Press (P),08/31-12/21,WEST 211,Hybrid:Online/In-Person Course
+2020,Fall,C,29549,ARTS,1030,2,T,4,DIGITAL FILMMAKING,MR,12:20 pm-02:10 pm,5,6,-1,0,0,0,19,16,3,Elizabeth Press (P),08/31-12/21,WEST 211,Hybrid:Online/In-Person Course
+2020,Fall,C,30143,ARTS,1030,3,T,4,DIGITAL FILMMAKING,MR,06:55 pm-08:45 pm,10,10,0,0,0,0,19,19,0,Igor Vamos (P),08/31-12/21,WEST 211,Hybrid:Online/In-Person Course
+2020,Fall,C,30144,ARTS,1030,4,T,4,DIGITAL FILMMAKING,MR,06:55 pm-08:45 pm,9,9,0,0,0,0,19,19,0,Igor Vamos (P),08/31-12/21,WEST 211,Hybrid:Online/In-Person Course
+2020,Fall,C,28787,ARTS,1050,1,T,4,ART HISTORY: PALEOLITHIC TO CONTEMPORARY,TF,02:30 pm-04:20 pm,60,64,-4,0,0,0,0,0,0,Jefferson Wille Kielwagen (P),08/31-12/21,ONLINE,Communication Intensive and Online Course
+2020,Fall,C,25818,ARTS,1200,1,T,4,BASIC DRAWING,TF,12:20 pm-02:10 pm,19,19,0,4,0,4,0,0,0,Kenneth A. Ragsdale (P),08/31-12/21,WEST 411,In-Person Course
+2020,Fall,NR,26023,ARTS,1200,2,T,4,BASIC DRAWING,MR,02:30 pm-04:20 pm,19,17,2,4,0,4,0,0,0,Kenneth A. Ragsdale (P),08/31-12/21,WEST 411,In-Person Course
+2020,Fall,C,29453,ARTS,1380,1,T,4,FUNDAMENTALS OF MUSIC & SOUND,TF,02:30 pm-04:20 pm,19,19,0,0,0,0,0,0,0,Christopher James Fisher-Lochhead (P),08/31-12/21,WEST 323,Hybrid:Online/In-Person Course
+2020,Fall,NR,29248,ARTS,2010,1,T,4,INTERMEDIATE VIDEO,MR,02:30 pm-04:20 pm,16,13,3,0,0,0,0,0,0,Elizabeth Press (P),08/31-12/21,WEST 211,Hybrid:Online/In-Person Course
+2020,Fall,C,25821,ARTS,2020,1,T,4,MUSIC AND TECHNOLOGY 1,MR,10:10 am-12:00 pm,10,11,-1,1,0,1,19,17,2,Robert Kyle Hamilton (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,NR,29559,ARTS,2020,2,T,4,MUSIC AND TECHNOLOGY 1,MR,10:10 am-12:00 pm,9,6,3,0,0,0,19,17,2,Robert Kyle Hamilton (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,NR,29144,ARTS,2070,1,T,4,GRAPHIC STORYTELLING,TF,08:00 am-09:50 am,19,18,1,0,0,0,0,0,0,Nathan Scott Meltz (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,NR,29162,ARTS,2200,1,T,4,INTERMEDIATE DRAWING,TF,10:10 am-12:00 pm,19,13,6,0,0,0,0,0,0,Kenneth A. Ragsdale (P),08/31-12/21,WEST 411,Hybrid:Online/In-Person Course
+2020,Fall,NR,28344,ARTS,2210,1,T,4,SCULPTURE I,MR,12:20 pm-02:10 pm,16,15,1,0,0,0,0,0,0,Jefferson Wille Kielwagen (P),08/31-12/21,SAGE 1211,Hybrid:Online/In-Person Course
+2020,Fall,NR,29560,ARTS,2220,1,T,4,FUNDAMENTALS OF 2D DESIGN,TF,02:30 pm-04:20 pm,19,16,3,0,0,0,0,0,0,Nathan Scott Meltz (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,NR,29145,ARTS,2230,1,T,4,3D DIGITAL MODELING,TF,02:30 pm-04:20 pm,19,16,3,0,0,0,0,0,0,Benjamin H. Barnard (P),08/31-12/21,SAGE 2411,Hybrid:Online/In-Person Course
+2020,Fall,C,29452,ARTS,2380,1,T,4,MUSIC AND SOUND I,TF,12:20 pm-02:10 pm,10,14,-4,0,0,0,0,0,0,Christopher James Fisher-Lochhead (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,C,29639,ARTS,2380,2,T,4,MUSIC AND SOUND I,TF,12:20 pm-02:10 pm,9,9,0,0,0,0,0,0,0,Christopher James Fisher-Lochhead (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,C,30146,ARTS,2520,1,T,4,WORLD MUSIC,TF,12:20 pm-02:10 pm,19,23,-4,3,0,3,0,0,0,Kathleen A. Galloway (P),08/31-12/21,WEST 326,Communication Intensive and Hybrid:Online/In-Person Course
+2020,Fall,NR,28287,ARTS,2540,1,T,4,THE MULTIMEDIA CENTURY,MR,10:10 am-12:00 pm,40,39,1,0,0,0,0,0,0,Michael L. Century (P),08/31-12/21,ONLINE,Communication Intensive and Online Course
+2020,Fall,C,30150,ARTS,2700,1,T,4,SOUND RECORDING & PROD I,M,12:20 pm-02:10 pm,4,5,-1,2,0,2,0,0,0,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,,,,,,,,,W,04:45 pm-06:35 pm,,,,,,,,,,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,,,,,,,,,R,12:20 pm-02:10 pm,,,,,,,,,,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,C,30151,ARTS,2700,2,T,4,SOUND RECORDING & PRODUCTION I,M,12:20 pm-02:10 pm,4,4,0,2,0,2,0,0,0,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,,,,,,,,,W,06:55 pm-08:45 pm,,,,,,,,,,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,,,,,,,,,R,12:20 pm-02:10 pm,,,,,,,,,,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,C,30152,ARTS,2700,3,T,4,SOUND RECORDING & PROD I,M,12:20 pm-02:10 pm,4,4,0,2,0,2,0,0,0,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,,,,,,,,,W,09:05 pm-10:55 pm,,,,,,,,,,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,,,,,,,,,R,12:20 pm-02:10 pm,,,,,,,,,,Ross A. Rice (P),08/31-12/21,DARRIN 174,Hybrid:Online/In-Person Course
+2020,Fall,NR,30349,ARTS,2750,1,T,1,PRIVATE MUSIC LESSONS: VIOLIN,,TBA,10,8,2,0,0,0,0,0,0,"Jamecyn F. Morey (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30350,ARTS,2750,2,T,1,PRIVATE MUSIC LESSONS: VIOLA,,TBA,10,0,10,0,0,0,0,0,0,"Jamecyn F. Morey (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30351,ARTS,2750,3,T,1,PRIVATE MUSIC LESSONS: CELLO,,TBA,10,2,8,0,0,0,0,0,0,"Margaret Conley Harwood (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30352,ARTS,2750,4,T,1,PRIVATE MUSIC LESSONS: BASS,,TBA,10,0,10,0,0,0,0,0,0,"Patrick O'Connell (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30353,ARTS,2750,5,T,1,PRIVATE MUSIC LESSONS: FLUTE,,TBA,10,0,10,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30354,ARTS,2750,6,T,1,PRIVATE MUSIC LESSONS: OBOE,,TBA,10,0,10,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30355,ARTS,2750,7,T,1,PRIVATE MUSIC LESSONS:CLARINET,,TBA,10,3,7,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30356,ARTS,2750,8,T,1,PRIVATE MUSIC LESSONS:BASSOON,,TBA,10,1,9,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30357,ARTS,2750,9,T,1,PRIVATE MUSIC LESSONS: SAX,,TBA,10,1,9,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30358,ARTS,2750,10,T,1,PRIVATE MUSIC LESSONS: FR HORN,,TBA,10,0,10,0,0,0,0,0,0,Christopher James Fisher-Lochhead (P),08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30359,ARTS,2750,11,T,1,PRIVATE MUSIC LESSONS: HARP,,TBA,10,2,8,0,0,0,0,0,0,"Karlinda D. Caldicott (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30360,ARTS,2750,12,T,1,PRIVATE MUSIC LESSONS:PERCUSS,,TBA,10,3,7,0,0,0,0,0,0,"Graeme S. Francis (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30361,ARTS,2750,13,T,1,PRIVATE MUSIC LESSONS: TRUMPET,,TBA,10,2,8,0,0,0,0,0,0,"Omar Williams (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30362,ARTS,2750,14,T,1,PRIVATE MUSIC LESSONS: VOICE,,TBA,10,6,4,0,0,0,0,0,0,"Elissa Marie Harrigan (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30363,ARTS,2750,15,T,1,PRIVATE MUSIC LESSONS: PIANO,,TBA,10,4,6,0,0,0,0,0,0,"Chrysi Nanou (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30364,ARTS,2750,16,T,1,PRIVATE MUSIC LESSONS: PIANO,,TBA,10,7,3,0,0,0,0,0,0,"Akina Yura (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30365,ARTS,2750,17,T,1,PRIVATE MUSIC LESSONS: PIANO,,TBA,10,8,2,0,0,0,0,0,0,"Jingwen Tu (P), Christopher James Fisher-Lochhead",08/31-12/21,TBA,Hybrid:Online/In-Person Course
+2020,Fall,NR,30468,ARTS,2961,1,T,1,FUSION MUSIC ENSEMBLE,TR,06:55 pm-08:45 pm,50,47,3,0,0,0,0,0,0,Christopher James Fisher-Lochhead (P),08/31-12/21,WEST 323,Hybrid:Online/In-Person Course
+2020,Fall,C,30518,ARTS,2962,1,T,4,POPULAR MUSIC & SOCIETY,TF,10:10 am-12:00 pm,19,23,-4,0,0,0,0,0,0,Kathleen A. Galloway (P),08/31-12/21,SAGE 4510,Communication Intensive and Hybrid:Online/In-Person Course
+2020,Fall,NR,30153,ARTS,4040,1,T,4,RETHINKING DOCUMENTARY:VIDEO PRODUCTION,MR,04:45 pm-06:35 pm,9,3,6,2,0,2,19,6,13,Branda Miller (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,C,28288,ARTS,4070,1,T,4,3D ANIMATION,TF,12:20 pm-02:10 pm,19,20,-1,0,0,0,0,0,0,Silvia Ruzanka (P),08/31-12/21,SAGE 2510,Hybrid:Online/In-Person Course
+2020,Fall,NR,29163,ARTS,4220,1,T,4,PAINTING,TR,06:55 pm-08:45 pm,17,15,2,3,0,3,19,15,4,Monica A. Hughes (P),08/31-12/21,WEST 411,Hybrid:Online/In-Person Course
+2020,Fall,NR,29562,ARTS,4380,1,T,4,MUSIC AND SOUND II,TF,10:10 am-12:00 pm,19,12,7,0,0,0,0,0,0,Matthew William Goodheart (P),08/31-12/21,WEST 323,Hybrid:Online/In-Person Course
+2020,Fall,C,30155,ARTS,4560,1,T,4,HACTIVISM,T,06:55 pm-10:45 pm,16,15,1,0,0,0,19,21,-2,Igor Vamos (P),08/31-12/21,WEST 211,Hybrid:Online/In-Person Course
+2020,Fall,NR,30267,ARTS,4840,1,T,4,CREATIVE SEMINAR I,TF,10:10 am-12:00 pm,19,17,2,0,0,0,0,0,0,Silvia Ruzanka (P),08/31-12/21,WEST 211,Hybrid:Online/In-Person Course
+2020,Fall,NR,30273,ARTS,4961,1,T,4,3D TECHNICAL DIRECTION,TF,08:00 am-09:50 am,19,12,7,0,0,0,0,0,0,Pedro A. Coronado (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,NR,30511,ARTS,4963,1,T,4,PERFORMANCE ART,MR,04:45 pm-06:35 pm,19,9,10,0,0,0,0,0,0,Jefferson Wille Kielwagen (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,NR,29225,ARTS,4965,1,T,4,BIOPUNK: ARTS LAB PRACTICES,MR,10:10 am-12:00 pm,15,13,2,0,0,0,19,16,3,Kathryn High (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,NR,30157,ARTS,6050,1,T,4,RETHINKING DOCUMENTARY: VIDEO PRODUCTION,MR,04:45 pm-06:35 pm,10,3,7,0,0,0,19,6,13,Branda Miller (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,NR,30158,ARTS,6220,1,T,4,PAINTING,TR,06:55 pm-08:45 pm,2,0,2,2,0,2,19,15,4,Monica A. Hughes (P),08/31-12/21,WEST 411,Hybrid:Online/In-Person Course
+2020,Fall,C,28018,ARTS,6400,1,T,4,EXPERIMENTAL GAME DESIGN,W,02:30 pm-06:20 pm,3,3,0,2,0,2,0,0,0,Kathleen Ruiz (P),08/31-12/21,SAGE 2411,Hybrid:Online/In-Person Course
+2020,Fall,C,30156,ARTS,6560,1,T,4,HACTIVISM,T,06:55 pm-10:45 pm,3,6,-3,0,0,0,19,21,-2,Igor Vamos (P),08/31-12/21,WEST 211,Hybrid:Online/In-Person Course
+2020,Fall,NR,28608,ARTS,6900,1,T,3,ARTS GRADUATE COLLOQUIUM,W,11:30 am-02:20 pm,15,7,8,0,0,0,0,0,0,Robert Kyle Hamilton (P),08/31-12/21,WEST 113,Hybrid:Online/In-Person Course
+2020,Fall,NR,29247,ARTS,6965,1,T,4,BIOPUNK: ARTS LAB PRACTICES,MR,10:10 am-12:00 pm,4,3,1,0,0,0,19,16,3,Kathryn High (P),08/31-12/21,ONLINE,Online Course
+2020,Fall,NR,27007,ARTS,9990,1,T,1.000-16.000,DISSERTATION,,TBA,10,2,8,0,0,0,0,0,0,Maryanne Staniszewski (P),08/31-12/21,TBA,
+2020,Fall,NR,30260,ARTS,9990,2,T,1.000-16.000,DISSERTATION,,TBA,10,2,8,0,0,0,0,0,0,Benjamin Chia-Ming Chang (P),08/31-12/21,TBA,
+2020,Fall,NR,29321,ARTS,9990,3,T,1.000-16.000,DISSERTATION,,TBA,10,1,9,0,0,0,0,0,0,Robert Kyle Hamilton (P),08/31-12/21,TBA,
+2020,Fall,NR,30261,ARTS,9990,4,T,1.000-16.000,DISSERTATION,,TBA,10,2,8,0,0,0,0,0,0,Matthew William Goodheart (P),08/31-12/21,TBA,
+2020,Fall,NR,28090,ARTS,9990,6,T,1.000-16.000,DISSERTATION,,TBA,10,0,10,0,0,0,0,0,0,Michael L. Century (P),08/31-12/21,TBA,
+2020,Fall,NR,28093,ARTS,9990,7,T,1.000-16.000,DISSERTATION,,TBA,10,1,9,0,0,0,0,0,0,Robert F. Nideffer (P),08/31-12/21,TBA,
+2020,Fall,NR,28383,ARTS,9990,8,T,1.000-16.000,DISSERTATION,,TBA,10,3,7,0,0,0,0,0,0,Kathryn High (P),08/31-12/21,TBA,
+2020,Fall,NR,30263,ARTS,9990,9,T,1.000-16.000,DISSERTATION,,TBA,10,1,9,0,0,0,0,0,0,Kathleen Ruiz (P),08/31-12/21,TBA,

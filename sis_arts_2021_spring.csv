@@ -1,0 +1,90 @@
+Year,Semester,Select,CRN,Subj,Crse,Sec,Cmp,Cred,Title,Days,Time,Cap,Act,Rem,WL Cap,WL Act,WL Rem,XL Cap,XL Act,XL Rem,Instructor,Date (MM/DD),Location,Attribute
+2021,Spring,NR,44976,ARTS,1020,1,T,4,DIGITAL IMAGING,TF,02:30 pm-04:20 pm,19,18,1,6,0,6,0,0,0,Nathan Scott Meltz (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,43392,ARTS,1030,1,T,4,DIGITAL FILMMAKING,MR,12:20 pm-02:10 pm,19,18,1,0,0,0,0,0,0,Elizabeth Press (P),01/18-05/07,WEST 211,Hybrid:Online/In-Person Course
+2021,Spring,NR,43891,ARTS,1030,2,T,4,DIGITAL FILMMAKING,MR,02:30 pm-04:20 pm,19,17,2,0,0,0,0,0,0,Elizabeth Press (P),01/18-05/07,WEST 211,Hybrid:Online/In-Person Course
+2021,Spring,NR,43417,ARTS,1050,1,T,4,ART HISTORY,TF,02:30 pm-04:20 pm,60,54,6,6,0,6,0,0,0,Jefferson Wille Kielwagen (P),01/18-05/07,ONLINE,Communication Intensive and Online Course
+2021,Spring,C,42604,ARTS,1200,1,T,4,BASIC DRAWING,MR,02:30 pm-04:20 pm,19,19,0,6,0,6,0,0,0,Kenneth A. Ragsdale (P),01/18-05/07,WEST 411,Hybrid:Online/In-Person Course
+2021,Spring,NR,42485,ARTS,1200,2,T,4,BASIC DRAWING,TF,12:20 pm-02:10 pm,19,18,1,6,0,6,0,0,0,Kenneth A. Ragsdale (P),01/18-05/07,WEST 411,Hybrid:Online/In-Person Course
+2021,Spring,C,44044,ARTS,1380,1,T,4,FUNDAMENTALS OF MUSIC & SOUND,TF,02:30 pm-04:20 pm,19,22,-3,8,0,8,0,0,0,Christopher James Fisher-Lochhead (P),01/18-05/07,WEST 323,Hybrid:Online/In-Person Course
+2021,Spring,NR,44397,ARTS,2040,1,T,4,INTERMEDIATE DIGITAL IMAGING,TF,10:10 am-12:00 pm,19,13,6,5,0,5,0,0,0,Nathan Scott Meltz (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44078,ARTS,2060,1,T,4,2D EXPERIMENTAL ANIMATION,TF,08:00 am-09:50 am,19,17,2,0,0,0,0,0,0,Nathan Scott Meltz (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44425,ARTS,2180,1,T,4,DEEP LISTENING,MR,08:00 am-09:50 am,19,18,1,6,0,6,0,0,0,Stephanie D Loveless (P),01/18-05/07,WEST 326,Communication Intensive and Hybrid:Online/In-Person Course
+2021,Spring,NR,44977,ARTS,2180,2,T,4,DEEP LISTENING,MR,10:10 am-12:00 pm,19,18,1,6,0,6,0,0,0,Stephanie D Loveless (P),01/18-05/07,WEST 326,Communication Intensive and Hybrid:Online/In-Person Course
+2021,Spring,C,43690,ARTS,2210,1,T,4,SCULPTURE I,MR,12:20 pm-02:10 pm,16,16,0,0,0,0,0,0,0,Jefferson Wille Kielwagen (P),01/18-05/07,SAGE 1211,Hybrid:Online/In-Person Course
+2021,Spring,NR,45051,ARTS,2210,2,T,4,SCULPTURE I,MR,02:30 pm-04:20 pm,16,14,2,0,0,0,0,0,0,Jefferson Wille Kielwagen (P),01/18-05/07,SAGE 1211,Hybrid:Online/In-Person Course
+2021,Spring,NR,43416,ARTS,2230,1,T,4,3D DIGITAL MODELING,TF,02:30 pm-04:20 pm,19,18,1,4,0,4,0,0,0,Benjamin H. Barnard (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,C,44079,ARTS,2380,1,T,4,MUSIC AND SOUND I,TF,12:20 pm-02:10 pm,19,23,-4,0,0,0,0,0,0,Christopher James Fisher-Lochhead (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44978,ARTS,2500,1,T,4,HISTORY OF WESTERN MUSIC,MR,10:10 am-12:00 pm,40,37,3,5,0,5,0,0,0,Michael L. Century (P),01/18-05/07,TBA,Online Course
+2021,Spring,NR,42165,ARTS,2540,1,T,4,THE MULTIMEDIA CENTURY,MR,04:45 pm-06:35 pm,40,38,2,0,0,0,0,0,0,Maryanne Staniszewski (P),01/18-05/07,TBA,Communication Intensive and Online Course
+2021,Spring,NR,44120,ARTS,2600,1,T,1,ENSEMBLE NONLINEAR,W,12:20 pm-04:10 pm,10,8,2,0,0,0,0,0,0,Robert Kyle Hamilton (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,C,44507,ARTS,2700,1,T,4,SOUND RECORDING & PROD I,MR,02:30 pm-04:20 pm,4,5,-1,0,0,0,0,0,0,Ross A. Rice (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,,,,,,,,,T,04:45 pm-06:35 pm,,,,,,,,,,Ross A. Rice (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,C,44508,ARTS,2700,2,T,4,SOUND RECORDING & PROD I,MR,02:30 pm-04:20 pm,4,5,-1,0,0,0,0,0,0,Ross A. Rice (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,,,,,,,,,T,06:55 pm-08:45 pm,,,,,,,,,,Ross A. Rice (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,C,44509,ARTS,2700,3,T,4,SOUND RECORDING & PROD I,MR,02:30 pm-04:20 pm,4,4,0,0,0,0,0,0,0,Ross A. Rice (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,,,,,,,,,T,09:05 pm-10:55 pm,,,,,,,,,,Ross A. Rice (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,NR,44647,ARTS,2750,1,T,1,PRIVATE MUSIC LESSONS: VIOLIN,,TBA,12,8,4,0,0,0,0,0,0,"Jamecyn F. Morey (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44643,ARTS,2750,2,T,1,PRIVATE MUSIC LESSONS:VIOLA,,TBA,12,0,12,0,0,0,0,0,0,"Jamecyn F. Morey (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44644,ARTS,2750,3,T,1,PRIVATE MUSIC LESSONS: CELLO,,TBA,12,4,8,0,0,0,0,0,0,"Margaret Conley Harwood (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44645,ARTS,2750,4,T,1,PRIVATE MUSIC LESSONS: BASS,,TBA,12,0,12,0,0,0,0,0,0,"Patrick O'Connell (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44646,ARTS,2750,5,T,1,PRIVATE MUSIC LESSONS: FLUTE,,TBA,12,1,11,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44648,ARTS,2750,6,T,1,PRIVATE MUSIC LESSONS: OBOE,,TBA,12,0,12,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44642,ARTS,2750,7,T,1,PRIVATE MUSIC LESSONS:CLARINET,,TBA,12,3,9,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44649,ARTS,2750,8,T,1,PRIVATE MUSIC LESSONS: BASSOON,,TBA,12,0,12,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44650,ARTS,2750,9,T,1,PRIVATE MUSIC LESSONS: SAX,,TBA,12,0,12,0,0,0,0,0,0,"Thomas J. Gerbino (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44651,ARTS,2750,10,T,1,PRIVATE MUSIC LESSONS: PIANO,,TBA,10,5,5,0,0,0,0,0,0,"Akina Yura (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44652,ARTS,2750,11,T,1,PRIVATE MUSIC LESSONS: FR HORN,,TBA,12,0,12,0,0,0,0,0,0,Christopher James Fisher-Lochhead (P),01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44653,ARTS,2750,14,T,1,PRIVATE MUSIC LESSONS: PIANO,,TBA,10,8,2,0,0,0,0,0,0,"Chrysi Nanou (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44654,ARTS,2750,15,T,1,PRIVATE MUSIC LESSONS: HARP,,TBA,10,1,9,0,0,0,0,0,0,"Karlinda D. Caldicott (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44655,ARTS,2750,16,T,1,PRIVATE MUSIC LESSONS: PERCUSS,,TBA,12,1,11,0,0,0,0,0,0,"Graeme S. Francis (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44656,ARTS,2750,17,T,1,PRIVATE MUSIC LESSONS: VOICE,,TBA,12,6,6,0,0,0,0,0,0,"Elissa Marie Harrigan (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44658,ARTS,2750,18,T,1,PRIVATE MUSIC LESSONS: PIANO,,TBA,12,3,9,0,0,0,0,0,0,"Jingwen Tu (P), Christopher James Fisher-Lochhead",01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44657,ARTS,2750,19,T,1,PRIVATE MUSIC LESSONS: TRUMPET,,TBA,12,1,11,0,0,0,0,0,0,"Omar Williams (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44996,ARTS,2750,20,T,1,PRIVATE MUSIC LESSONS TROMBONE,,TBA,5,0,5,0,0,0,0,0,0,"Charles W. Olencki (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,44997,ARTS,2750,21,T,1,PRIVATE MUSIC LESSONS: TUBA,,TBA,5,0,5,0,0,0,0,0,0,"Charles W. Olencki (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,45005,ARTS,2750,22,T,1,PRIVATE MUSIC LESSONS: GUITAR,,TBA,10,6,4,0,0,0,0,0,0,"Paul J. Quigley (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,45006,ARTS,2750,23,T,1,MUSIC LESSONS: EUPHONIUM,,TBA,10,0,10,0,0,0,0,0,0,"Charles W. Olencki (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,45007,ARTS,2750,24,T,1,MUSIC LESSONS: JAZZ IMPROV,,TBA,10,0,10,0,0,0,0,0,0,"Matthew P. Steckler (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,NR,45008,ARTS,2750,25,T,1,MUSIC LESSONS: JAZZ SAX,,TBA,10,0,10,0,0,0,0,0,0,"Matthew P. Steckler (P), Christopher James Fisher-Lochhead",01/18-05/07,TBA,Hybrid:Online/In-Person Course
+2021,Spring,C,40491,ARTS,2940,0,T,1,INDEPENDENT STUDY IN ARTS,TBA,,0,0,0,0,0,0,0,0,0,TBA,01/18-05/07,TBA,
+2021,Spring,NR,44990,ARTS,2961,1,T,1,FUSION MUSIC ENSEMBLE,TR,06:55 pm-08:45 pm,25,15,10,0,0,0,0,0,0,Michael L. Century (P),01/18-05/07,WEST 323,Hybrid:Online/In-Person Course
+2021,Spring,C,44991,ARTS,2961,2,T,1,FUSION MUSIC ENSEMBLE,TR,06:55 pm-08:45 pm,25,26,-1,0,0,0,0,0,0,Christopher James Fisher-Lochhead (P),01/18-05/07,WEST 326,Hybrid:Online/In-Person Course
+2021,Spring,C,44992,ARTS,2963,1,T,4,GAME SOUND & MUSICAL PLAY,TF,12:20 pm-02:10 pm,19,19,0,0,0,0,0,0,0,Kathleen A. Galloway (P),01/18-05/07,WEST 211,Communication Intensive and Hybrid:Online/In-Person Course
+2021,Spring,C,44993,ARTS,2964,1,T,4,POPULAR MUSIC & SOCIETY,TF,10:10 am-12:00 pm,19,19,0,0,0,0,0,0,0,Kathleen A. Galloway (P),01/18-05/07,WEST 326,Communication Intensive and Hybrid:Online/In-Person Course
+2021,Spring,NR,44402,ARTS,4060,1,T,4,3D VISUAL EFFECTS,TF,08:00 am-09:50 am,19,18,1,4,0,4,0,0,0,John A. Baumann (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,45014,ARTS,4080,1,T,4,"ART, COMMUNITY AND TECHNOLOGY",MR,12:20 pm-02:10 pm,16,12,4,0,0,0,19,12,7,Branda Miller (P),01/18-05/07,TBA,Communication Intensive and Online Course
+2021,Spring,NR,43471,ARTS,4160,1,T,4,MUSIC AND TECHNOLOGY II,MR,10:10 am-12:00 pm,19,11,8,0,0,0,0,0,0,Robert Kyle Hamilton (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,42605,ARTS,4200,1,T,4,ADVANCED DRAWING,TF,10:10 am-12:00 pm,19,12,7,0,0,0,0,0,0,Kenneth A. Ragsdale (P),01/18-05/07,WEST 411,Hybrid:Online/In-Person Course
+2021,Spring,NR,44045,ARTS,4380,1,T,4,MUSIC AND SOUND II,TF,10:10 am-12:00 pm,19,12,7,0,0,0,0,0,0,Matthew William Goodheart (P),01/18-05/07,WEST 323,Hybrid:Online/In-Person Course
+2021,Spring,NR,44405,ARTS,4600,1,T,4,ENSEMBLE NON-LINEAR,W,12:20 pm-04:10 pm,4,3,1,0,0,0,6,4,2,Robert Kyle Hamilton (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,C,44982,ARTS,4620,1,T,4,EXPLORING MOVEMENT & SOUND,TF,02:30 pm-04:20 pm,19,15,4,0,0,0,19,19,0,Kathleen A. Galloway (P),01/18-05/07,ONLINE,Communication Intensive and Online Course
+2021,Spring,NR,44181,ARTS,4640,1,T,4,SCIENCE FICTIONS,MR,04:45 pm-06:35 pm,15,10,5,0,0,0,19,12,7,Kathryn High (P),01/18-05/07,WEST 211,Communication Intensive and Hybrid:Online/In-Person Course
+2021,Spring,NR,44641,ARTS,4700,1,T,4,SOUND RECORDING & PROD II,MR,12:20 pm-02:10 pm,12,11,1,0,0,0,0,0,0,Ross A. Rice (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,NR,42606,ARTS,4850,1,T,4,CREATIVE SEMINAR II,MR,10:10 am-12:00 pm,15,13,2,0,0,0,0,0,0,Silvia Ruzanka (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,42828,ARTS,4860,1,T,4,ADVANCED DIGITAL IMAGING,TR,06:55 pm-08:45 pm,15,9,6,0,0,0,19,9,10,Kathleen Ruiz (P),01/18-05/07,WEST 214,Hybrid:Online/In-Person Course
+2021,Spring,NR,44983,ARTS,4880,1,T,4,LISTENING IN THE ANTHROPOCENE,MR,02:30 pm-04:20 pm,19,9,10,0,0,0,19,10,9,Stephanie D Loveless (P),01/18-05/07,ONLINE,Communication Intensive and Online Course
+2021,Spring,C,40492,ARTS,4940,0,T,1.000-6.000,STUDIES IN THE ARTS,TBA,,0,0,0,0,0,0,0,0,0,TBA,01/18-05/07,TBA,
+2021,Spring,NR,44994,ARTS,4960,1,T,4,ADVANCED PAINTING,TR,06:55 pm-08:45 pm,17,13,4,0,0,0,19,13,6,Monica A. Hughes (P),01/18-05/07,WEST 411,Hybrid:Online/In-Person Course
+2021,Spring,NR,43781,ARTS,6110,1,T,3,ELECTRONIC ARTS OVERVIEW,M,06:55 pm-09:45 pm,10,4,6,0,0,0,0,0,0,Maryanne Staniszewski (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44979,ARTS,6250,1,T,4,"ART, COMMUNITY AND TECHNOLOGY",MR,12:20 pm-02:10 pm,3,0,3,0,0,0,19,12,7,Branda Miller (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44080,ARTS,6600,1,T,4,ENSEMBLE NONLINEAR,W,12:20 pm-04:10 pm,2,1,1,0,0,0,6,4,2,Robert Kyle Hamilton (P),01/18-05/07,DARRIN 174,Hybrid:Online/In-Person Course
+2021,Spring,NR,44182,ARTS,6640,1,T,3,SCIENCE FICTIONS,MR,04:45 pm-06:35 pm,4,2,2,0,0,0,19,12,7,Kathryn High (P),01/18-05/07,WEST 211,Hybrid:Online/In-Person Course
+2021,Spring,NR,42829,ARTS,6860,1,T,4,ADVANCED DIGITAL IMAGING,TR,06:55 pm-08:45 pm,4,0,4,0,0,0,19,9,10,Kathleen Ruiz (P),01/18-05/07,WEST 214,Hybrid:Online/In-Person Course
+2021,Spring,NR,42357,ARTS,6900,1,T,3,ARTS GRADUATE COLLOQUIUM,W,11:45 am-02:35 pm,15,4,11,0,0,0,0,0,0,Igor Vamos (P),01/18-05/07,WEST 113,Hybrid:Online/In-Person Course
+2021,Spring,C,40493,ARTS,6940,0,T,1.000-6.000,STUDIES IN ELECTRONIC ARTS,TBA,,0,0,0,0,0,0,0,0,0,TBA,01/18-05/07,TBA,
+2021,Spring,C,44988,ARTS,6960,1,T,4,EXPLORING MOVEMENT & SOUND,TF,02:30 pm-04:20 pm,19,4,15,0,0,0,19,19,0,Kathleen A. Galloway (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44995,ARTS,6961,1,T,4,ADVANCED PAINTING,TR,06:55 pm-08:45 pm,2,0,2,0,0,0,19,13,6,Monica A. Hughes (P),01/18-05/07,WEST 411,Hybrid:Online/In-Person Course
+2021,Spring,NR,45015,ARTS,6962,1,T,4,LISTENING IN THE ANTHROPOCENE,MR,02:30 pm-04:20 pm,19,1,18,0,0,0,19,10,9,Stephanie D Loveless (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,44122,ARTS,6965,1,T,4,MUSIC AND TECHNOLOGY II,MR,10:10 am-12:00 pm,15,0,15,0,0,0,0,0,0,Robert Kyle Hamilton (P),01/18-05/07,ONLINE,Online Course
+2021,Spring,NR,41734,ARTS,9990,1,T,1.000-16.000,DISSERTATION,,TBA,10,1,9,0,0,0,0,0,0,Maryanne Staniszewski (P),01/18-05/07,TBA,
+2021,Spring,NR,45044,ARTS,9990,2,T,1.000-16.000,DISSERTATION,,TBA,10,1,9,0,0,0,0,0,0,Kathleen Ruiz (P),01/18-05/07,TBA,
+2021,Spring,NR,45060,ARTS,9990,3,T,1.000-16.000,DISSERTATION,,TBA,5,1,4,0,0,0,0,0,0,Robert F. Nideffer (P),01/18-05/07,TBA,
+2021,Spring,NR,42692,ARTS,9990,4,T,1.000-16.000,DISSERTATION,,TBA,10,1,9,0,0,0,0,0,0,Michael L. Century (P),01/18-05/07,TBA,
+2021,Spring,NR,42704,ARTS,9990,5,T,1.000-16.000,DISSERTATION,,TBA,10,2,8,0,0,0,0,0,0,Matthew William Goodheart (P),01/18-05/07,TBA,
+2021,Spring,NR,43874,ARTS,9990,6,T,1.000-16.000,DISSERTATION,,TBA,10,2,8,0,0,0,0,0,0,Robert Kyle Hamilton (P),01/18-05/07,TBA,
+2021,Spring,NR,42768,ARTS,9990,7,T,1.000-16.000,DISSERTATION,,TBA,10,0,10,0,0,0,0,0,0,Shawn A. Lawson (P),01/18-05/07,TBA,
+2021,Spring,NR,42771,ARTS,9990,8,T,1.000-16.000,DISSERTATION,,TBA,7,5,2,0,0,0,0,0,0,Kathryn High (P),01/18-05/07,TBA,
+2021,Spring,NR,44678,ARTS,9990,9,T,1.000-16.000,DISSERTATION,,TBA,10,2,8,0,0,0,0,0,0,Benjamin Chia-Ming Chang (P),01/18-05/07,TBA,
+2021,Spring,NR,44679,ARTS,9990,10,T,1.000-16.000,DISSERTATION,,TBA,10,0,10,0,0,0,0,0,0,Branda Miller (P),01/18-05/07,TBA,
+2021,Spring,NR,44680,ARTS,9990,11,T,1.000-16.000,DISSERTATION,,TBA,10,1,9,0,0,0,0,0,0,Igor Vamos (P),01/18-05/07,TBA,
+2021,Spring,NR,44981,ARTS,9990,13,T,1.000-16.000,DISSERTATION,,TBA,10,0,10,0,0,0,0,0,0,Mary Simoni (P),01/18-05/07,TBA,

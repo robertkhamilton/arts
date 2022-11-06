@@ -1,0 +1,12 @@
+course dept,course number,cross dept,cross number,course title,sub-title,keywords,notes
+ARTS,CR-artshead,,,Course Release: Arts Department Head,,arts-head,Course Release: Department Head
+ARTS,4160,,,Music and Technology II,,"music, tech",
+ARTS,2960,GSAS,2960,Designing Musical Games,,"music, tech, games",
+ARTS,2961,,,Ensemble Nonlinear,,"music, tech, ensemble",
+ARTS,2020,,,Music and Technology I,,"music, tech",
+ARTS,6900,,,Arts Graduate Colloquium,,"arts, grad",
+ARTS,4880,,,Interdisciplinary Research Seminar,Sonification: Art & Science,"music, tech",
+ARTS,4880,,,Interdisciplinary Research Seminar,Spatial Sound and Music,"music, tech",
+ARTS,4880,,,Interdisciplinary Research Seminar,Listening in the Anthropocene,music,
+ARTS,4880,,,Interdisciplinary Research Seminar,Speech in and as Music,music,
+ARTS,4880,,,Interdisciplinary Research Seminar,"Music, Sound and the Internet",music,

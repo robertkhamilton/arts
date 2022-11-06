@@ -1,6 +1,80 @@
+body {
+width:25000px;
+}
+
+.column {
+  float: left;
+
+  padding: 0px;
+}
+
+.row:after {
+  content:"";
+  display: table;
+  clear: both;
+}
+
 .arts_class {
+  display: inline-block;
+  white-space: normal;
   border: 1px outset black;
-  background-color: lightblue;
   text-align: center;
   float: left;
+  padding: 10px 10px 10px 10px;
+  margin:2px;
+  width: 280px;
+  height: auto;
+  text-align: left;
+  clear: both;
+}
+
+.fall {
+  background-color: #fff2ccff;
+}
+
+.spring {
+  background-color: #d9ead3ff;
+}
+
+.summer {
+  background-color: #c9daf8ff;
+  background-color: #d9d2e9ff;
+  background-color: #f4ccccff;
+}
+
+.arts9990 {
+    background-color: #ccc;
+}
+
+div.course-title {
+  font-weight: 900;
+}
+
+div.year-semester {
+
+}
+
+div.course-dept-number {
+
+}
+
+div.faculty {
+  font-weight: 100;
+}
+
+div.arts {
+
+}
+
+div.gsas {
+
+}
+
+div.hass {
+
+}
+
+div.faculty_header {
+  border: 0px outset black;
+  padding:20px 1px 1px 1px;
 }
