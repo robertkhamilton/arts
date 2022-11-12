@@ -18,14 +18,33 @@ width:25000px;
   display: inline-block;
   white-space: normal;
   border: 1px outset black;
+  border-right-width:10px;
+  border-right-color:#9fdfbf;
   text-align: center;
   float: left;
   padding: 10px 10px 10px 10px;
   margin:2px;
-  width: 280px;
+  width: 270px;
   height: auto;
   text-align: left;
   clear: both;
+}
+
+.gsas_class {
+    display: inline-block;
+    white-space: normal;
+    border: 1px outset black;
+    border-right-width:10px;
+    border-right-color:#ff8080;
+    text-align: center;
+    float: left;
+    padding: 10px 10px 10px 10px;
+    margin:2px;
+    width: 270px;
+    height: auto;
+    text-align: left;
+    clear: both;
+  }
 }
 
 .fall {
