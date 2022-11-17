@@ -83,6 +83,7 @@
   $SUBJECT = 'Subj';
   $YEAR = 'Year';
   $SEMESTER = 'Semester';
+  $NUMBER = 'Number';
   $FILTERNAME = 'filter_name';
   $PTAG = ' (P)';
   $TYPE = 'Type';
@@ -312,7 +313,7 @@
 
     global $source_faculty, $grouped_faculty, $TYPE;
     global $COMMA, $EQUALS, $NAME, $FILTERNAME, $FALL, $SPRING, $SUMMER, $CURRENT_YEAR, $CURRENT_SEMESTER, $TITLE, $DISSERTATION_COURSENUMBER, $COURSE, $ARTS, $SUBJECT, $YEAR, $SEMESTER, $INSTRUCTOR;
-    global $PROGRAM, $GSAS, $ARTS, $MUSIC;
+    global $PROGRAM, $GSAS, $ARTS, $MUSIC, $NUMBER;
 
     $faculty_keys = array_keys($this_grouped_array);
     $faculty_count = count($faculty_keys);
@@ -370,9 +371,17 @@
           $resultmatch = false;
           $resultcount = 0;
           $yearsearch = false;
+          $yearmatch = false;
+
           $semestersearch = false;
+          $semestermatch = false;
+
           $facultytypesearch = false;
           $facultynamesearch = false;
+          $faculty_name_match = false;
+
+          $numbersearch = false;
+          $numbermatch = false;
 
           $programmatch = false;
           $programsearch = false;
@@ -388,6 +397,8 @@
           $query_facultytypes = array();
 
           $query_facultynames = array();
+
+          $query_numbers = array();
 
           // step through filter array and process each filter
           foreach($filter_array as $key=>$value) {
@@ -411,7 +422,6 @@
               $facultynamesearch = true;
 
               foreach($query_facultynames as $query_val){
-
                 //if(str_contains( strtolower($current_faculty_name), strtolower($query_val))) {
                 if(strpos( strtolower($current_faculty_name), strtolower($query_val))) {
                   $faculty_name_match = true;
@@ -450,6 +460,11 @@
               $programsearch = true;
             }
 
+            if($query_searchtype == strtolower($NUMBER)) {
+              $query_numbers = $query_values;
+              $numbersearch = true;
+            }
+
           } // foreach($filter_array as $key=>$value)...
        } //if($filtering)...
 
@@ -469,123 +484,238 @@
           // do year search
           if($yearsearch) {
 
-            $year_match = false;
+            $yearmatch = false;
 
             foreach($query_years as $query_year) {
               if(strtolower($current_faculty_courses[$j][$YEAR]) == $query_year) {
-                $year_match = true;
+                $yearmatch = true;
               }
             }
           }
 
           if($semestersearch) {
 
-            $semester_match = false;
+            $semestermatch = false;
 
             foreach($query_semesters as $query_semester) {
               if(strtolower($current_faculty_courses[$j][$SEMESTER]) == $query_semester) {
-                $semester_match = true;
+                $semestermatch = true;
               }
             }
           }
 
           if($programsearch) {
 
-            $program_match = false;
+            $programmatch = false;
 
             foreach($query_programs as $query_program) {
               if(strtolower($current_faculty_courses[$j][$SUBJECT]) == $query_program) {
-                $program_match = true;
+                $programmatch = true;
+              }
+            }
+          }
+
+          if($numbersearch) {
+
+            $numbermatch = false;
+
+            foreach($query_numbers as $query_number) {
+              if(strtolower($current_faculty_courses[$j][$COURSE]) == $query_number) {
+                $numbermatch = true;
               }
             }
           }
 /*
           if($facultynamesearch && $yearsearch && $semestersearch && $programsearch {
-            if($faculty_name_match && $year_match && $semester_match && $program_match) {
+            if($faculty_name_match && $yearmatch && $semestermatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch && $yearsearch && $programsearch {
-            if($faculty_name_match && $year_match && $program_match) {
+            if($faculty_name_match && $yearmatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch && $semestersearch && $programsearch {
-            if($faculty_name_match && $semester_match && $program_match) {
+            if($faculty_name_match && $semestermatch && $programmatch) {
               $resultmatch = true;
             }
           }
 */
 
           // search conditions: And OR types here...
-          if($facultynamesearch && $yearsearch && $semestersearch && $programsearch) {
-            if($faculty_name_match && $year_match && $semester_match && $program_match) {
+          if($facultynamesearch && $yearsearch && $semestersearch && $programsearch && $numbersearch) {
+            if($faculty_name_match && $yearmatch && $semestermatch && $programmatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultynamesearch && $yearsearch && $semestersearch && $numbersearch) {
+            if($faculty_name_match && $yearmatch && $semestermatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultynamesearch && $yearsearch && $numbersearch && $programsearch) {
+            if($faculty_name_match && $yearmatch && $numbermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultynamesearch && $numbersearch && $semestersearch && $programsearch) {
+            if($faculty_name_match && $numbermatch && $semestermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($numbersearch && $yearsearch && $semestersearch && $programsearch) {
+            if($numbermatch && $yearmatch && $semestermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultynamesearch && $yearsearch && $semestersearch && $programsearch) {
+            if($faculty_name_match && $yearmatch && $semestermatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch && $yearsearch && $semestersearch) {
-            if($faculty_name_match && $year_match && $semester_match) {
+            if($faculty_name_match && $yearmatch && $semestermatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch && $yearsearch && $programsearch) {
-            if($faculty_name_match && $year_match && $program_match) {
+            if($faculty_name_match && $yearmatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch && $semestersearch && $programsearch) {
-            if($faculty_name_match && $semester_match && $program_match) {
+            if($faculty_name_match && $semestermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultynamesearch && $yearsearch && $numbersearch) {
+            if($faculty_name_match && $yearmatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultynamesearch && $semestersearch && $numbersearch) {
+            if($faculty_name_match && $semestermatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultynamesearch && $numbersearch && $programsearch) {
+            if($faculty_name_match && $numbermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($numbersearch && $semestersearch && $programsearch) {
+            if($numbermatch && $semestermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($numbersearch && $yearsearch && $semestersearch) {
+            if($numbermatch && $yearmatch && $semestermatch) {
+              $resultmatch = true;
+            }
+          } elseif($numbersearch && $yearsearch && $programsearch) {
+            if($numbersearch && $yearmatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch && $yearsearch) {
-            if($faculty_name_match && $year_match) {
+            if($faculty_name_match && $yearmatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch && $semestersearch) {
-            if($faculty_name_match && $semester_match) {
+            if($faculty_name_match && $semestermatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch && $programsearch) {
-            if($faculty_name_match && $program_match) {
+            if($faculty_name_match && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultynamesearch && $numbersearch) {
+            if($faculty_name_match && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultytypesearch && $yearsearch && $semestersearch && $programsearch && $numbersearch) {
+            if($faculty_type_match && $yearmatch && $semestermatch && $programmatch && $numbermatch) {
               $resultmatch = true;
             }
           } elseif($facultytypesearch && $yearsearch && $semestersearch && $programsearch) {
-            if($faculty_type_match && $year_match && $semester_match && $program_match) {
+            if($faculty_type_match && $yearmatch && $semestermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultytypesearch && $yearsearch && $semestersearch && $numbersearch) {
+            if($faculty_type_match && $yearmatch && $semestermatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultytypesearch && $yearsearch && $numbersearch && $programsearch) {
+            if($faculty_type_match && $yearmatch && $numbermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultytypesearch && $numbersearch && $numbersearch && $programsearch) {
+            if($faculty_type_match && $numbermatch && $numbermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($numbersearch && $yearsearch && $semestersearch && $programsearch) {
+            if($numbermatch && $yearmatch && $semestermatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($facultytypesearch && $yearsearch && $semestersearch) {
-            if($faculty_type_match && $year_match && $semester_match){
+            if($faculty_type_match && $yearmatch && $semestermatch){
               $resultmatch = true;
             }
           } elseif($facultytypesearch && $yearsearch && $programsearch) {
-            if($faculty_type_match && $year_match && $program_match) {
+            if($faculty_type_match && $yearmatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($facultytypesearch && $semestersearch && $programsearch) {
-            if($faculty_type_match && $semester_match && $program_match) {
+            if($faculty_type_match && $semestermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultytypesearch && $semestersearch && $numbersearch) {
+            if($faculty_type_match && $semestermatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultytypesearch && $numbersearch && $programsearch) {
+            if($faculty_type_match && $numbermatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($yearsearch && $semestersearch && $programsearch) {
-            if($year_match && $semester_match && $program_match) {
+            if($yearmatch && $semestermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($yearsearch && $semestersearch && $numbersearch) {
+            if($yearmatch && $semestermatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($yearsearch && $numbersearch && $programsearch) {
+            if($yearmatch && $numbermatch && $programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($numbersearch && $semestersearch && $programsearch) {
+            if($numbermatch && $semestermatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($facultytypesearch && $yearsearch){
-            if($faculty_type_match && $year_match) {
+            if($faculty_type_match && $yearmatch) {
               $resultmatch = true;
             }
           } elseif($facultytypesearch && $semestersearch){
-            if($faculty_type_match && $semester_match) {
+            if($faculty_type_match && $semestermatch) {
               $resultmatch = true;
             }
           } elseif($facultytypesearch && $programsearch) {
-            if($faculty_type_match && $program_match) {
+            if($faculty_type_match && $programmatch) {
               $resultmatch = true;
             }
           } elseif($yearsearch && $programsearch) {
-            if($year_match && $program_match) {
+            if($yearmatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($semestersearch && $programsearch) {
-            if($semester_match && $program_match) {
+            if($semestermatch && $programmatch) {
               $resultmatch = true;
             }
           } elseif($yearsearch && $semestersearch){
-            if($year_match && $semester_match) {
+            if($yearmatch && $semestermatch) {
+              $resultmatch = true;
+            }
+          } elseif($yearsearch && $numbersearch){
+            if($yearmatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($semestersearch && $numbersearch){
+            if($semestermatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($programsearch && $numbersearch){
+            if($programmatch && $numbermatch) {
+              $resultmatch = true;
+            }
+          } elseif($facultytypesearch && $numbersearch) {
+            if($faculty_type_match && $numbermatch) {
               $resultmatch = true;
             }
           } elseif($facultynamesearch){
@@ -597,15 +727,19 @@
               $resultmatch = true;
             }
           } elseif($yearsearch){
-            if($year_match) {
+            if($yearmatch) {
               $resultmatch = true;
             }
           } elseif($semestersearch){
-            if($semester_match) {
+            if($semestermatch) {
               $resultmatch = true;
             }
           } elseif($programsearch){
-            if($program_match) {
+            if($programmatch) {
+              $resultmatch = true;
+            }
+          } elseif($numbersearch){
+            if($numbermatch) {
               $resultmatch = true;
             }
           }
